@@ -1,0 +1,135 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
+/* @font-face {
+    font-family: "Roboto";
+    src: url('https://fonts.google.com/specimen/Roboto');
+  } */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    color: #333;
+    background-color: #FAFDD6;
+}
+
+ul {
+    padding-inline-start: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #059862;
+    cursor: pointer;
+}
+
+button {
+    background-color:#059862;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 600;
+    border: 0;
+    padding: 10px 20px 10px 20px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #048750;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+header, section {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+section {
+    margin: 20px 20px 0px 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    margin: 0px 0px 20px 0px;
+    font-size: 1.6rem;
+}
+
+#logo {
+    width: 50px;
+    height: 50px;
+    background-image: url('https://m.media-amazon.com/images/S/abs-image-upload-na/c/AmazonStores/ATVPDKIKX0DER/a7e434e2217002065987ab7bf4eb06a7.w2025.h2025._CR0,0,2025,2025_SX200_.png');
+    background-size: 130%;
+}
+
+header nav {
+    margin-left: 40px;
+}
+
+nav ul li, nav a {
+    display: inline;
+    margin-right: 40px;
+    font-weight: 600;
+}
+
+nav li:hover, nav a:hover {
+    cursor: hand;
+    color: #333;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+#greencards {
+    display: grid;
+    grid-template-columns: 24% 24% 24% 24%;
+    gap: 14px;
+    margin-top: 20px;
+}
+
+#greencards > div {
+    border-radius: 8px;
+    background-color: #E6BA95;
+}
+
+#greencards > div ul, 
+#greencards > div h2 {
+    padding: 0 14px;
+}
+
+#greencards .img-holder img {
+    height: 100px;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+#greencards a {
+    color: #333;
+}
+
+#greencards a:hover {
+    color: #059862;
+}
+
+#greencards #add-green {
+    background-color: #FAFDD6;
+    border: 5px #059862 dotted;
+}
+
+#add-green button {
+    width: 100%;
+    height: 100%;
+    background: none;
+    font-size: 1.4rem;
+    color: #059862;
+    text-align: center;
+    vertical-align: middle;
+}
